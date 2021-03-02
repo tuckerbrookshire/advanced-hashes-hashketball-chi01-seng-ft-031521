@@ -189,16 +189,9 @@ def big_shoe_rebounds
   max_shoe = nil
   game_hash.each do |team, team_info|
    team_info[:players].each do |player|
-     
+     binding.pry
       player[:shoe].each do |key, size|
-        if max == nil
-          binding.pry
-           max = key
-           max_shoe = size
-        elsif size < min
-        
-          min = value
-          min_key = key
+       
       end
     end
   end
