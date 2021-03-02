@@ -191,7 +191,6 @@ def big_shoe_rebounds
    team_info[:players].each do |player|
      binding.pry
       if player[:shoe] > max_shoe
-        
          max_shoe == player[:shoe]
          rebounds == player[:rebounds]
        end
