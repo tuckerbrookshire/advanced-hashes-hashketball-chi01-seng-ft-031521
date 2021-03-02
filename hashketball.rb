@@ -191,12 +191,9 @@ def big_shoe_rebounds
    team_info[:players].each do |player|
      binding.pry
       player[:shoe].each do |key, size|
-       
-      end
     end
   end
 end
-max_shoe
 end
 
 
