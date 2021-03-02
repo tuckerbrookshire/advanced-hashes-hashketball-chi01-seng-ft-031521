@@ -190,7 +190,7 @@ def big_shoe_rebounds
   game_hash.each do |team, team_info|
    team_info[:players].each do |player|
      binding.pry
-      if player[:shoe] > max_shoe
+      if player[:shoe] > max
         max_shoe 
     end
   end
